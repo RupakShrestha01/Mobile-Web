@@ -13,8 +13,10 @@ const Contact = () => {
               <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-orange-500">
                 Contact us
               </p>
-              <h2 class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                GET IN TOUCH WITH US
+              <h2 className="font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none max-w-lg mb-6">
+                Get in
+                <br className="hidden md:block" />
+                Touch <span className="inline-block text-white">with Us</span>
               </h2>
               <p class="text-body-color mb-9 text-base leading-relaxed">
                 We're always happy to hear from our customers, so if you have
