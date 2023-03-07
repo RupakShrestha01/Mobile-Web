@@ -27,7 +27,7 @@ export const Footer = () => {
                 alt="logo"
               />
             </a>
-            <p className="self-center text-sm mr-12 mt-2">
+            <p className="self-center text-sm lg:mr-12 mt-2 mr-0 ">
               To stay up-to-date on the latest news and promotions, be sure to
               follow us on social media and sign up for our email newsletter.
             </p>
