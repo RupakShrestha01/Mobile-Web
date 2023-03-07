@@ -2,7 +2,7 @@ import React from 'react';
 
 const Service = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div id="service" className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-orange-500">
@@ -50,15 +50,15 @@ const Service = () => {
           </div>
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-              Let us handle
+              Let Us Bring
               <br className="hidden md:block" />
-              your next{' '}
-              <span className="inline-block text-white">destination</span>
+              Your Vision{' '}
+              <span className="inline-block text-white">to Life</span>
             </h2>
             <p className="text-base text-white md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+              At our mobile merchandise and mobile cover printing service, we
+              take pride in providing comprehensive and high-quality printing
+              services to our customers.
             </p>
           </div>
           <div>

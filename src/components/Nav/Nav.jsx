@@ -1,30 +1,29 @@
 import React, { useState } from 'react';
-
 import logo from '../../assets/image/logo.svg';
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div class="px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 ">
-      <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16 ">
-        <ul class="flex items-center hidden space-x-8 lg:flex">
+    <div class="  px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 ">
+      <div class=" relative flex items-center justify-between lg:justify-center lg:space-x-16 ">
+        <ul class=" flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
+              href="#home"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              Product
+              Home
             </a>
           </li>
           <li>
             <a
-              href="/"
+              href="#service"
               aria-label="Our product"
               title="Our product"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              Features
+              Services
             </a>
           </li>
           <li>
@@ -34,27 +33,27 @@ const Nav = () => {
               title="Product pricing"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              Pricing
+              Product
             </a>
           </li>
         </ul>
         <a
           href="/"
-          aria-label="Company"
-          title="Company"
+          aria-label="Sublimate"
+          title="Sublimate"
           class="inline-flex items-center"
         >
-          <img src={logo} class="w-16 h-16 border-4 rounded-full" alt="logo" />
+          <img src={logo} class="w-16 h-16 shadow-xl rounded-full" alt="logo" />
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="/"
+              href="#team"
               aria-label="About us"
               title="About us"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              About us
+              Our Team
             </a>
           </li>
           <li>
@@ -64,17 +63,17 @@ const Nav = () => {
               title="Sign in"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              Sign in
+              About
             </a>
           </li>
           <li>
             <a
-              href="/"
+              href="#contact"
               aria-label="Sign up"
               title="Sign up"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              Sign up
+              Contact us
             </a>
           </li>
         </ul>
@@ -111,24 +110,11 @@ const Nav = () => {
                       title="Company"
                       class="inline-flex items-center"
                     >
-                      <svg
-                        class="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
-                      </span>
+                      <img
+                        src={logo}
+                        class="w-16 h-16 shadow-xl rounded-full"
+                        alt="logo"
+                      />
                     </a>
                   </div>
                   <div>
@@ -151,32 +137,32 @@ const Nav = () => {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="/"
+                        href="#home"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-gray-300"
                       >
-                        Product
+                        Home
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#service"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-gray-300"
                       >
-                        Features
+                        Service
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#team"
                         aria-label="Product pricing"
                         title="Product pricing"
                         class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-gray-300"
                       >
-                        Pricing
+                        Our Team
                       </a>
                     </li>
                     <li>
@@ -186,27 +172,17 @@ const Nav = () => {
                         title="About us"
                         class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-gray-300"
                       >
-                        About us
+                        About
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="#contact"
                         aria-label="Sign in"
                         title="Sign in"
                         class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-gray-300"
                       >
-                        Sign in
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-orange-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none"
-                        aria-label="Sign up"
-                        title="Sign up"
-                      >
-                        Sign up
+                        Contact
                       </a>
                     </li>
                   </ul>

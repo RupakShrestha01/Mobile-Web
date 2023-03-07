@@ -2,7 +2,10 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      id="home"
+      className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
         <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
           <div className="max-w-xl mb-6">
@@ -18,9 +21,8 @@ const Home = () => {
               <span className="inline-block text-white">is real</span>
             </h2>
             <p className="text-white text-base md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+              Customize Your Mobile Style with Our Merchandise and Cover
+              Printing Services
             </p>
           </div>
           <div className="flex items-center space-x-3">
@@ -64,9 +66,9 @@ const Home = () => {
         </div>
       </div>
       <a
-        href="/"
+        href="#footer"
         aria-label="Scroll down"
-        className="flex items-center justify-center w-10 h-10 mx-auto text-white hover:text-white hover:border-orange-500 duration-300 transform border border-white rounded-full hover:shadow hover:scale-110"
+        className="flex items-center justify-center w-10 h-10 mx-auto text-white hover:text-white hover:border-orange-500 duration-300 transform border border- rounded-full hover:shadow hover:scale-110"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

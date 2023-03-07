@@ -9,9 +9,11 @@
   scroll-behavior: smooth;
 }
 
-
 @layer components {
+
+
   .background {
+
     background: #de6161; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,

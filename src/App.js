@@ -1,13 +1,15 @@
 import React from 'react';
-import { Nav, Home, Service, Team, Footer, Faq } from './components';
+import { Nav, Home, Service, Team, Footer, Contact } from './components';
+import './index.css';
 const App = () => {
   return (
-    <div className="background">
+    <div className="background ">
       <Nav />
       <Home />
       <Service />
       <Team />
-      <Faq />
+
+      <Contact />
       <Footer />
     </div>
   );
