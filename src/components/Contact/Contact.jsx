@@ -2,7 +2,10 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" class=" relative z-10 overflow-hidden text-white py-20 lg:py-[120px]">
+    <section
+      id="contact"
+      class="  px-4 py-16 mx-auto sm:max-w-xl md:max-w-full text-white lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
       <div class="container mx-auto">
         <div class="-mx-4 flex flex-wrap lg:justify-between">
           <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
