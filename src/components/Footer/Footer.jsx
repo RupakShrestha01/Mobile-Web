@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../assets/image/logo.svg';
 export const Footer = () => {
   return (
-    <div id="footer" className=" relative mt-16 bg-blue-500">
+    <div id="footer" className=" text-white relative mt-16 bg-blue-500">
       <svg
         className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-blue-500"
         preserveAspectRatio="none"
