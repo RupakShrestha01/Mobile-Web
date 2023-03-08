@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Home, Service, Team, Footer, Contact } from './components';
+import { Nav, Home, Service, Team, Footer, Contact, Chat } from './components';
 import { Fade } from 'react-awesome-reveal';
 import './index.css';
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
       <Fade triggerOnce={true} duration={3000}>
         <Contact />
       </Fade>
-
+      <Chat />
       <Footer />
     </div>
   );

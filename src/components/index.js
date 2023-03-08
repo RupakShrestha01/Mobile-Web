@@ -4,3 +4,4 @@ export { default as Service } from './Service/Service';
 export { default as Team } from './Team/Team';
 export { default as Footer } from './Footer/Footer';
 export { default as Contact } from './Contact/Contact';
+export { default as Chat } from './Chat/Chat';
