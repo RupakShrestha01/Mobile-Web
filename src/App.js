@@ -6,16 +6,16 @@ const App = () => {
   return (
     <div className="background ">
       <Nav />
-      <Fade duration={3000}>
+      <Fade triggerOnce={true} duration={3000}>
         <Home />
       </Fade>
-      <Fade duration={3000}>
+      <Fade triggerOnce={true} duration={3000}>
         <Service />
       </Fade>
-      <Fade duration={3000}>
+      <Fade triggerOnce={true} duration={3000}>
         <Team />
       </Fade>
-      <Fade duration={3000}>
+      <Fade triggerOnce={true} duration={3000}>
         <Contact />
       </Fade>
 
