@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 "
     >
       <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
         <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
@@ -25,28 +25,30 @@ const Home = () => {
               Printing Services
             </p>
           </div>
-          <div className="flex items-center space-x-3">
-            <a
-              href="/"
-              className="w-32 transition duration-300 hover:shadow-lg"
-            >
-              <img
-                src="https://kitwind.io/assets/kometa/app-store.png"
-                className="object-cover object-top w-full h-auto mx-auto"
-                alt=""
-              />
-            </a>
-            <a
-              href="/"
-              className="w-32 transition duration-300 hover:shadow-lg"
-            >
-              <img
-                src="https://kitwind.io/assets/kometa/google-play.png"
-                className="object-cover object-top w-full h-auto mx-auto"
-                alt=""
-              />
-            </a>
-          </div>
+
+            <div className="flex items-center space-x-3">
+              <a
+                href="/"
+                className="w-32 transition duration-300 hover:shadow-lg"
+              >
+                <img
+                  src="https://kitwind.io/assets/kometa/app-store.png"
+                  className="object-cover object-top w-full h-auto mx-auto"
+                  alt=""
+                />
+              </a>
+              <a
+                href="/"
+                className="w-32 transition duration-300 hover:shadow-lg"
+              >
+                <img
+                  src="https://kitwind.io/assets/kometa/google-play.png"
+                  className="object-cover object-top w-full h-auto mx-auto"
+                  alt=""
+                />
+              </a>
+            </div>
+
         </div>
         <div className="flex items-center justify-center lg:w-1/2">
           <div className="w-2/5">

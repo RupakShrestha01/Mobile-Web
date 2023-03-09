@@ -2,156 +2,134 @@ import React from 'react';
 import logo from '../../assets/image/logo.svg';
 export const Footer = () => {
   return (
-    <div id="footer" className=" text-white relative mt-16 bg-blue-500">
-      <svg
-        className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-blue-500"
-        preserveAspectRatio="none"
-        viewBox="0 0 1440 54"
-      >
-        <path
-          fill="currentColor"
-          d="M0 22L120 16.7C240 11 480 1.00001 720 0.700012C960 1.00001 1200 11 1320 16.7L1440 22V54H1320C1200 54 960 54 720 54C480 54 240 54 120 54H0V22Z"
-        />
-      </svg>
-      <footer className="px-4 divide-y  bg-blue-500 dark:text-gray-100">
-        <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-          <div className="lg:w-1/3">
-            <a
-              rel="noopener noreferrer"
-              href="/"
-              className="flex justify-center space-x-3 lg:justify-start"
-            >
-              <img
-                src={logo}
-                class="w-16 h-16 shadow-xl rounded-full"
-                alt="logo"
-              />
-            </a>
-            <p className="self-center text-sm lg:mr-12 mt-2 mr-0 ">
-              To stay up-to-date on the latest news and promotions, be sure to
-              follow us on social media and sign up for our email newsletter.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
-            <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-50">
-                Product
-              </h3>
-              <ul className="space-y-1">
+    <div id="footer" className=" text-white relative ">
+      <section class="py-12 bg-gradient-to-r from-fuchsia-600 to-blue-600">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div class="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
+            <div class="xl:flex xl:items-center xl:justify-start">
+              <img class="w-auto mx-auto h-16" src={logo} alt="" />
+
+              <p class="mt-5 text-sm text-white xl:ml-6 xl:mt-0">
+                © Copyright 2023 Subli Mate
+              </p>
+            </div>
+
+            <div class="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
+              <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                 <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Features
+                  <a
+                    href="#home"
+                    title=""
+                    class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {' '}
+                    Home{' '}
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Integrations
+                  <a
+                    href="#product"
+                    title=""
+                    class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {' '}
+                    Product{' '}
                   </a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Pricing
+                  <a
+                    href="/"
+                    title=""
+                    class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {' '}
+                    About{' '}
                   </a>
                 </li>
+
                 <li>
-                  <a rel="noopener noreferrer" href="/">
-                    FAQ
+                  <a
+                    href="/"
+                    title=""
+                    class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {' '}
+                    Services{' '}
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="/"
+                    title=""
+                    class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    {' '}
+                    Support{' '}
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-50">
-                Company
-              </h3>
-              <ul className="space-y-1">
+
+              <div class="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
+
+              <ul class="flex items-center justify-center space-x-8 xl:justify-end">
                 <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Privacy
+                  <a
+                    href="/"
+                    title=""
+                    class="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path>
+                    </svg>
                   </a>
                 </li>
+
                 <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Terms of Service
+                  <a
+                    href="https://www.facebook.com/Subli_mate-104262785893646/?ref=page_internal"
+                    title=""
+                    class="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.instagram.com/subli_mate01/"
+                    title=""
+                    class="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  >
+                    <svg
+                      class="w-6 h-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
+                      <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                      <path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path>
+                    </svg>
                   </a>
                 </li>
               </ul>
-            </div>
-            <div className="space-y-3">
-              <h3 className="uppercase dark:text-gray-50">Developers</h3>
-              <ul className="space-y-1">
-                <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Public API
-                  </a>
-                </li>
-                <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Documentation
-                  </a>
-                </li>
-                <li>
-                  <a rel="noopener noreferrer" href="/">
-                    Guides
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="space-y-3">
-              <div className="uppercase dark:text-gray-50">Social media</div>
-              <div className="flex justify-start space-x-3">
-                <a
-                  rel="noopener noreferrer"
-                  href="/"
-                  title="Facebook"
-                  className="flex items-center p-1"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 32 32"
-                    className="w-5 h-5 fill-current"
-                  >
-                    <path d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z"></path>
-                  </svg>
-                </a>
-                <a
-                  rel="noopener noreferrer"
-                  href="/"
-                  title="Twitter"
-                  className="flex items-center p-1"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5 fill-current"
-                  >
-                    <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"></path>
-                  </svg>
-                </a>
-                <a
-                  rel="noopener noreferrer"
-                  href="/"
-                  title="Instagram"
-                  className="flex items-center p-1"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 32 32"
-                    fill="currentColor"
-                    className="w-5 h-5 fill-current"
-                  >
-                    <path d="M16 0c-4.349 0-4.891 0.021-6.593 0.093-1.709 0.084-2.865 0.349-3.885 0.745-1.052 0.412-1.948 0.959-2.833 1.849-0.891 0.885-1.443 1.781-1.849 2.833-0.396 1.020-0.661 2.176-0.745 3.885-0.077 1.703-0.093 2.244-0.093 6.593s0.021 4.891 0.093 6.593c0.084 1.704 0.349 2.865 0.745 3.885 0.412 1.052 0.959 1.948 1.849 2.833 0.885 0.891 1.781 1.443 2.833 1.849 1.020 0.391 2.181 0.661 3.885 0.745 1.703 0.077 2.244 0.093 6.593 0.093s4.891-0.021 6.593-0.093c1.704-0.084 2.865-0.355 3.885-0.745 1.052-0.412 1.948-0.959 2.833-1.849 0.891-0.885 1.443-1.776 1.849-2.833 0.391-1.020 0.661-2.181 0.745-3.885 0.077-1.703 0.093-2.244 0.093-6.593s-0.021-4.891-0.093-6.593c-0.084-1.704-0.355-2.871-0.745-3.885-0.412-1.052-0.959-1.948-1.849-2.833-0.885-0.891-1.776-1.443-2.833-1.849-1.020-0.396-2.181-0.661-3.885-0.745-1.703-0.077-2.244-0.093-6.593-0.093zM16 2.88c4.271 0 4.781 0.021 6.469 0.093 1.557 0.073 2.405 0.333 2.968 0.553 0.751 0.291 1.276 0.635 1.844 1.197 0.557 0.557 0.901 1.088 1.192 1.839 0.22 0.563 0.48 1.411 0.553 2.968 0.072 1.688 0.093 2.199 0.093 6.469s-0.021 4.781-0.099 6.469c-0.084 1.557-0.344 2.405-0.563 2.968-0.303 0.751-0.641 1.276-1.199 1.844-0.563 0.557-1.099 0.901-1.844 1.192-0.556 0.22-1.416 0.48-2.979 0.553-1.697 0.072-2.197 0.093-6.479 0.093s-4.781-0.021-6.48-0.099c-1.557-0.084-2.416-0.344-2.979-0.563-0.76-0.303-1.281-0.641-1.839-1.199-0.563-0.563-0.921-1.099-1.197-1.844-0.224-0.556-0.48-1.416-0.563-2.979-0.057-1.677-0.084-2.197-0.084-6.459 0-4.26 0.027-4.781 0.084-6.479 0.083-1.563 0.339-2.421 0.563-2.979 0.276-0.761 0.635-1.281 1.197-1.844 0.557-0.557 1.079-0.917 1.839-1.199 0.563-0.219 1.401-0.479 2.964-0.557 1.697-0.061 2.197-0.083 6.473-0.083zM16 7.787c-4.541 0-8.213 3.677-8.213 8.213 0 4.541 3.677 8.213 8.213 8.213 4.541 0 8.213-3.677 8.213-8.213 0-4.541-3.677-8.213-8.213-8.213zM16 21.333c-2.948 0-5.333-2.385-5.333-5.333s2.385-5.333 5.333-5.333c2.948 0 5.333 2.385 5.333 5.333s-2.385 5.333-5.333 5.333zM26.464 7.459c0 1.063-0.865 1.921-1.923 1.921-1.063 0-1.921-0.859-1.921-1.921 0-1.057 0.864-1.917 1.921-1.917s1.923 0.86 1.923 1.917z"></path>
-                  </svg>
-                </a>
-              </div>
             </div>
           </div>
         </div>
-        <div className="py-6 text-sm text-center dark:text-white">
-          © 2023 Subli Mate Co. All rights reserved.
-        </div>
-      </footer>
+      </section>
     </div>
   );
 };

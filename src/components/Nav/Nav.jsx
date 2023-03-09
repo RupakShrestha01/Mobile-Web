@@ -28,7 +28,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#product"
               aria-label="Product pricing"
               title="Product pricing"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
@@ -48,12 +48,12 @@ const Nav = () => {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="#team"
+              href="#client"
               aria-label="About us"
               title="About us"
               class="font-medium tracking-wide text-white transition-colors duration-200 hover:text-gray-300"
             >
-              Our Team
+              Our Client
             </a>
           </li>
           <li>
@@ -157,12 +157,12 @@ const Nav = () => {
                     </li>
                     <li>
                       <a
-                        href="#team"
+                        href="#client"
                         aria-label="Product pricing"
                         title="Product pricing"
                         class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-gray-300"
                       >
-                        Our Team
+                        Our Clients
                       </a>
                     </li>
                     <li>

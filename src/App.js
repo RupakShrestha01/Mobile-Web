@@ -1,23 +1,24 @@
 import React from 'react';
-import { Nav, Home, Service, Team, Footer, Contact, Chat } from './components';
-import { Fade } from 'react-awesome-reveal';
+import {
+  Nav,
+  Home,
+  Service,
+  Footer,
+  Contact,
+  Chat,
+  Testimonial,
+  Product,
+} from './components';
 import './index.css';
 const App = () => {
   return (
-    <div className="background ">
+    <div className="background">
       <Nav />
-      <Fade triggerOnce={true} duration={3000}>
-        <Home />
-      </Fade>
-      <Fade triggerOnce={true} duration={3000}>
-        <Service />
-      </Fade>
-      <Fade triggerOnce={true} duration={3000}>
-        <Team />
-      </Fade>
-      <Fade triggerOnce={true} duration={3000}>
-        <Contact />
-      </Fade>
+      <Home />
+      <Product />
+      <Service />
+      <Testimonial />
+      <Contact />
       <Chat />
       <Footer />
     </div>
