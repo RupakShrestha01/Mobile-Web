@@ -1,5 +1,5 @@
 import React from 'react';
-import rating from '../../assets/image/rating.svg';
+import rating from '../../assets/image/icons/rating.svg';
 const Testimonial = () => {
   return (
     <section id="client" class="py-12 bg-gray-50 sm:py-16 lg:py-20">

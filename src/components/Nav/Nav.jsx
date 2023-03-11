@@ -1,9 +1,29 @@
-import React, { useState } from 'react';
-import logo from '../../assets/image/logo.svg';
+import React, { useState, useEffect } from 'react';
+import logo from '../../assets/image/icons/logo.svg';
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+  const changeBackground = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 66) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  useEffect(() => {
+    changeBackground();
+
+    window.addEventListener('scroll', changeBackground);
+  });
   return (
-    <div class="  px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 ">
+    <nav
+      className={
+        navbar
+          ? 'px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 w-full transition ease-in-out  duration-500 fixed bg-black z-50'
+          : 'px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8'
+      }
+    >
       <div class=" relative flex items-center justify-between lg:justify-center lg:space-x-16 ">
         <ul class=" flex items-center hidden space-x-8 lg:flex">
           <li>
@@ -192,7 +212,7 @@ const Nav = () => {
           )}
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

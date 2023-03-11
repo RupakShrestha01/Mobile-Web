@@ -1,7 +1,7 @@
 import React from 'react';
-import home from '../../assets/image/house.svg';
-import phone from '../../assets/image/phone.svg';
-import gmail from '../../assets/image/gmail.svg';
+import home from '../../assets/image/icons/house.svg';
+import phone from '../../assets/image/icons/phone.svg';
+import gmail from '../../assets/image/icons/gmail.svg';
 const Contact = () => {
   return (
     <section

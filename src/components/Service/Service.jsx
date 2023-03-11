@@ -1,8 +1,8 @@
 import React from 'react';
-import s1 from '../../assets/image/s1.jpg';
-import s2 from '../../assets/image/s2.JPG';
-import s3 from '../../assets/image/s3.JPG';
-import satisfaction from '../../assets/image/satisfaction.svg';
+import s1 from '../../assets/image/service/s1.jpg';
+import s2 from '../../assets/image/service/s2.JPG';
+import s3 from '../../assets/image/service/s3.JPG';
+import satisfaction from '../../assets/image/icons/satisfaction.svg';
 const Service = () => {
   return (
     <div

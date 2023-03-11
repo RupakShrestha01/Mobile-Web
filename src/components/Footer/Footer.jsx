@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/image/logo.svg';
+import logo from '../../assets/image/icons/logo.svg';
 export const Footer = () => {
   return (
     <div id="footer" className=" text-white relative ">

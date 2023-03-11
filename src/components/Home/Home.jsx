@@ -26,29 +26,28 @@ const Home = () => {
             </p>
           </div>
 
-            <div className="flex items-center space-x-3">
-              <a
-                href="/"
-                className="w-32 transition duration-300 hover:shadow-lg"
-              >
-                <img
-                  src="https://kitwind.io/assets/kometa/app-store.png"
-                  className="object-cover object-top w-full h-auto mx-auto"
-                  alt=""
-                />
-              </a>
-              <a
-                href="/"
-                className="w-32 transition duration-300 hover:shadow-lg"
-              >
-                <img
-                  src="https://kitwind.io/assets/kometa/google-play.png"
-                  className="object-cover object-top w-full h-auto mx-auto"
-                  alt=""
-                />
-              </a>
-            </div>
-
+          <div className="flex items-center space-x-3">
+            <a
+              href="/"
+              className="w-32 transition duration-300 hover:shadow-lg"
+            >
+              <img
+                src="https://kitwind.io/assets/kometa/app-store.png"
+                className="object-cover object-top w-full h-auto mx-auto"
+                alt=""
+              />
+            </a>
+            <a
+              href="/"
+              className="w-32 transition duration-300 hover:shadow-lg"
+            >
+              <img
+                src="https://kitwind.io/assets/kometa/google-play.png"
+                className="object-cover object-top w-full h-auto mx-auto"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
         <div className="flex items-center justify-center lg:w-1/2">
           <div className="w-2/5">
