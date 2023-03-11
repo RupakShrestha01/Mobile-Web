@@ -10,7 +10,6 @@ const App = () => {
   return (
     <div className="background">
       <Nav />
-
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route path="/product/case" element={<Case />} />

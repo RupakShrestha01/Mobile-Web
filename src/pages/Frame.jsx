@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import k1 from '../assets/image/keyring/keyring1.JPG';
-
-import k4 from '../assets/image/keyring/keyring4.JPG';
-import k5 from '../assets/image/keyring/keyring5.JPG';
-import k6 from '../assets/image/keyring/keyring6.JPG';
+import f1 from '../assets/image/frame/f1.JPG';
+import f2 from '../assets/image/frame/f2.jpg';
 const Frame = () => {
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
@@ -14,13 +11,13 @@ const Frame = () => {
         <img
           className="lg:w-[19rem] w-full mx-auto"
           alt="img of a girl posing"
-          src={k1}
+          src={f1}
         />
         <div className="flex items-center justify-between mt-3 gap-0 lg:gap-4 overflow-scroll  space-x-4 md:space-x-0">
-          <img alt="img-tag-one" className="w-32 h-48 lg:w-full" src={k4} />
-          <img alt="img-tag-one" className="w-48 h-48 lg:w-full" src={k5} />
-          <img alt="img-tag-one" className="w-48 h-48 lg:w-full" src={k6} />
-          <img alt="img-tag-one" className="w-48 h-48 lg:w-full" src={k1} />
+          <img alt="img-tag-one" className="w-32 h-48 lg:w-full" src={f2} />
+          <img alt="img-tag-one" className="w-48 h-48 lg:w-full" src={f1} />
+          <img alt="img-tag-one" className="w-48 h-48 lg:w-full" src={f2} />
+          <img alt="img-tag-one" className="w-48 h-48 lg:w-full" src={f1} />
         </div>
       </div>
       <div className="xl:w-2/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">
